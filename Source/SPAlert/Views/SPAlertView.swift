@@ -53,6 +53,16 @@ open class SPAlertView: UIView {
     public var duration: TimeInterval = 1.5
     
     /**
+     Horizontal alert padding
+    */
+    public var sideSpace: CGFloat = 16
+    
+    /**
+    Width of the alert
+    */
+    public var width: CGFloat = 250
+    
+    /**
      Allow dismiss by tap on alert. By default it allowed.
      */
     public var dismissByTap: Bool = true
@@ -219,8 +229,8 @@ open class SPAlertView: UIView {
     
     open override func layoutSubviews() {
         super.layoutSubviews()
-        let width: CGFloat = 250
-        let sideSpace: CGFloat = 16
+        let width: CGFloat = self.width
+        let sideSpace: CGFloat = self.sideSpace
         if let iconView = iconView {
             iconView.frame = CGRect.init(x: 0, y: layout.topSpace, width: layout.iconWidth, height: layout.iconHeight)
             iconView.center.x = width / 2
