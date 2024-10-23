@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A63C9392CC95FB200598E49 /* SPAlertIconSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A63C9382CC95FB200598E49 /* SPAlertIconSpinnerView.swift */; };
 		706F894A2383277500ECF5D1 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706F89492383277500ECF5D1 /* SPAlertIconErrorView.swift */; };
 		F40FB62A239ADF940090BA57 /* SPAlertIconQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FB629239ADF940090BA57 /* SPAlertIconQuestionView.swift */; };
 		F41204E92382AC9B009C2AC7 /* SPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41204DF2382AC9B009C2AC7 /* SPAlertView.swift */; };
@@ -70,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A63C9382CC95FB200598E49 /* SPAlertIconSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAlertIconSpinnerView.swift; sourceTree = "<group>"; };
 		706F89492383277500ECF5D1 /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAlertIconErrorView.swift; sourceTree = "<group>"; };
 		F40FB629239ADF940090BA57 /* SPAlertIconQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAlertIconQuestionView.swift; sourceTree = "<group>"; };
 		F41204D02382ABE9009C2AC7 /* SPAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,6 +216,7 @@
 				F42DE05523AD7D94007CCE29 /* SPAlertIconPrivacyView.swift */,
 				F45DDF2723AFFF3000CA3956 /* SPAlertIconCartView.swift */,
 				F47120BA23C25EFA003B73C5 /* SPAlertIconSearchView.swift */,
+				3A63C9382CC95FB200598E49 /* SPAlertIconSpinnerView.swift */,
 			);
 			path = Icons;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				F41204EB2382AC9B009C2AC7 /* SPAlertIconHeartView.swift in Sources */,
 				F4A8361A2385588300EB32E0 /* SPAlertIconDocView.swift in Sources */,
 				F4146EB223AAA18100AE7658 /* SPAlertIconLikeView.swift in Sources */,
+				3A63C9392CC95FB200598E49 /* SPAlertIconSpinnerView.swift in Sources */,
 				F45970B423A578A50092CE7C /* SPAlertIconCardView.swift in Sources */,
 				F412052B2382AF64009C2AC7 /* SPAlertLayout.swift in Sources */,
 			);
